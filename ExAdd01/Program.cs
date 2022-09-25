@@ -2,7 +2,7 @@
 //https://acmp.ru/asp/do/index.asp?main=task&id_course=1&id_section=5&id_topic=114&id_problem=699
 //
 
-int searchPlace(string[] array, int value)
+int searchPlace(string[] array, int value)  // можно было без метода, он тут нужен для того, чтобы при нахождении места сразу вернуть результат, не перебирая остальные варианты
 {
     for (int i = 1; i < array.Length; i++)             // С первым по росту уже сравнили - начинаем со второго
     {       
